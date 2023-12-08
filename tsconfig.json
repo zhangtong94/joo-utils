@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "ES2018",
+      "DOM"
+    ],
+    "allowJs": true,
+    "checkJs": true,
+    "declaration": true,
+    "declarationDir": "./lib",
+    "sourceMap": true,
+    "outDir": "lib",
+    "rootDir": "./src",
+    "strict": true,
+  },
+  "include": [
+    "src/index.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib"
+  ]
+}
